@@ -1,0 +1,9 @@
+﻿  ConsoleApplication79.cpp
+C:\Users\Deng\source\repos\ConsoleApplication79\ConsoleApplication79.cpp(141,44): warning C4244: “=”: 从“LONGLONG”转换到“DWORD”，可能丢失数据
+ConsoleApplication79.obj : error LNK2019: 无法解析的外部符号 _PdhOpenQueryW@12，该符号在函数 "long __cdecl GetRegistrySize(wchar_t *,unsigned long *,unsigned long *)" (?GetRegistrySize@@YAJPA_WPAK1@Z) 中被引用
+ConsoleApplication79.obj : error LNK2019: 无法解析的外部符号 _PdhAddCounterW@16，该符号在函数 "long __cdecl GetRegistrySize(wchar_t *,unsigned long *,unsigned long *)" (?GetRegistrySize@@YAJPA_WPAK1@Z) 中被引用
+ConsoleApplication79.obj : error LNK2019: 无法解析的外部符号 _PdhCollectQueryData@4，该符号在函数 "long __cdecl GetRegistrySize(wchar_t *,unsigned long *,unsigned long *)" (?GetRegistrySize@@YAJPA_WPAK1@Z) 中被引用
+ConsoleApplication79.obj : error LNK2019: 无法解析的外部符号 _PdhCloseQuery@4，该符号在函数 "long __cdecl GetRegistrySize(wchar_t *,unsigned long *,unsigned long *)" (?GetRegistrySize@@YAJPA_WPAK1@Z) 中被引用
+ConsoleApplication79.obj : error LNK2019: 无法解析的外部符号 _PdhGetRawCounterValue@12，该符号在函数 "long __cdecl GetRegistrySize(wchar_t *,unsigned long *,unsigned long *)" (?GetRegistrySize@@YAJPA_WPAK1@Z) 中被引用
+ConsoleApplication79.obj : error LNK2019: 无法解析的外部符号 _PdhMakeCounterPathW@16，该符号在函数 "long __cdecl GetRegistrySize(wchar_t *,unsigned long *,unsigned long *)" (?GetRegistrySize@@YAJPA_WPAK1@Z) 中被引用
+C:\Users\Deng\source\repos\ConsoleApplication79\Debug\ConsoleApplication79.exe : fatal error LNK1120: 6 个无法解析的外部命令
